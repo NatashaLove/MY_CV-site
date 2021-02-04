@@ -1,0 +1,390 @@
+body {
+   font-family:  'Open Sans', sans-serif;
+  
+}
+
+p {
+    font-size: 0.8rem;
+    font-family: 'Potta One', sans-serif;
+   
+}
+
+a {
+    color:rgb(90, 90, 90);
+}
+a :hover {
+    color: rgb(255, 191, 52);
+}
+
+span .border-right{
+    border-color: rgb(187, 69, 79);
+}
+
+span:hover {
+    text-decoration: underline;
+  }
+a #listnews{
+    font-weight: 300;
+    color: rgb(30, 30, 30);
+    font-size: 16px;
+    line-height: 1rem;
+   
+}
+
+
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: #fff;
+    line-height: 1.75rem;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Potta One', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+hr {
+   margin-left: 10rem;
+   align-items: end;
+    
+}
+
+i {
+    color: #f7fcc5;
+}
+
+button.navbar-toggler {
+    border: none;
+}
+
+.intro {
+
+    color: whitesmoke;
+    
+}
+.border-right {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 10px;
+    border-width: 1px;
+    border-color:  rgb(187, 69, 79);
+    color: rgb(204, 237, 250);
+
+    
+}
+
+
+.nav {
+    font-family: 'Potta One', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(204, 237, 250);
+    padding-right: 1rem, .5rem;
+    
+
+    
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(204, 237, 250);
+    font-weight:615;
+    justify-content: space-around;
+    
+}
+.navbar-light .navbar-nav .nav-link:hover {color:rgb(255, 191, 52); }
+
+.navbar-collapse {
+    flex-grow: 0;
+    font-size: 13.5px;
+    
+}
+
+
+.container {
+    max-width: 1300px;
+}
+
+
+.nav-item {
+    padding: .450em 12px .250em;
+    min-height: 3em;
+}
+.form-inline {
+    padding-left: 20px;
+    min-width: 200px;
+}
+
+.nav-link {
+    padding-left: 0;
+    border-color: rgb(187, 69, 79);
+}
+.nav-link:hover {
+    color:rgb(255, 191, 52);    }
+
+/* leave #id here because classes ocerride them */
+
+#nl {
+      color:rgb(255, 191, 52);
+      border-bottom: 1px solid rgb(255, 191, 52);
+      font-size: 1.5rem;
+     letter-spacing: 2px;
+     
+    }   
+
+
+#topic {
+    padding-bottom:1rem;
+    color: rgb(204, 237, 250);
+    font-size: 1.75rem;
+    text-align: center; 
+}
+
+.text {
+    
+    color:rgb(255, 191, 52);
+      
+   position: relative;
+   z-index: 999;
+   line-height: 24px;
+    margin-bottom: 8px;
+    /*margin-left: 10rem;*/
+    margin-top: 8px;
+    padding-bottom: 2px;
+    visibility: visible;
+    font-weight: normal;
+    border-bottom: 1px solid rgb(255, 191, 52);
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    display: inline-block;
+    }
+
+    
+.listnews {
+        font-weight: 300;
+        color: rgb(30, 30, 30);
+        font-size: 16px;
+        line-height: 1rem;
+        padding-top: 0.5rem ;
+    }
+    
+.listnews :hover {
+    color:rgb(255, 191, 52);    }
+
+.dropdown-menu {
+
+    background-color: transparent;
+}
+.dropdown-item:hover {
+    background-color: rgb(255, 191, 52);
+}
+
+
+#topic:hover {
+    color:whitesmoke;
+    text-decoration: underline wavy  rgb(204, 237, 250) 2px;
+    transition-duration: 0.4s;
+    
+}  
+
+.socmed {
+    height: 30px;
+    width: 50 px;
+}
+
+.flex-sm-fill {
+    padding-right: 16px;
+    width: 25%;
+    color: #fff;
+    
+}
+
+.foot {
+
+   
+    padding-top: 1.23em;
+    display: block;
+    border-right: 1px solid #949494;
+    line-height: 1.2em;
+    font-size:  0.8em;
+    font-weight: lighter;
+
+}
+
+
+.page-holder {
+    min-height: 100vh;
+  }
+  
+.bg-cover {
+    background-size: cover !important;
+    opacity: 90%;
+  }
+
+.img-thumbnail {
+    border: 1px solid rgb(255, 191, 52);
+    padding: .15rem;
+
+
+}
+
+#me{
+      width: 15%;
+  }
+
+  
+
+
+#search {
+    width: 142px;
+    margin: 8px, 0, 7px, 16px;
+    padding-left: 6px;
+    float:left;
+    background: none;
+    font-size: 13px;
+    color: rgb(204, 237, 250);
+    font-weight: 600;
+    height: 1.846em;
+    min-height: 24px;
+    border-width: 1px;
+}
+
+#signin  {
+    position: relative;
+    margin: 0;
+    padding: 6px, 200px, 4px, 42px;
+    min-width: 12em;
+    border: 0;
+
+}
+
+#magglass {
+    width: 32px;
+    height: 24px;
+    background: none;
+    border-radius: 0;
+    cursor: pointer;
+    border: none;
+    
+    display: block;
+    line-height: 0;
+   
+    background-position: center center;
+    background-size: 16px 16px;
+}
+
+#toggler {
+    color: rgb(204, 237, 250);
+
+}
+
+#navbar {
+   color: rgb(51, 51, 51);
+   /*padding-left:10rem;*/
+   position: relative;
+   z-index: 999;
+   border: none;
+
+}
+
+#navbarDropdownMenuLink {
+    position: relative;
+    margin: 0;
+    padding: 6px, 200px, 4px, 42px;
+    min-width: 7em;
+    max-width: 100%;
+    background-color: none;
+    color: rgb(204, 237, 250);
+
+}
+
+#news {
+    font-family: 'Potta One', sans-serif;
+    font-size: 2.7rem;
+    font-weight: 500;
+    color: rgb(255, 191, 52);
+    padding-right: 30px;
+    padding-left: 5px;
+    
+}
+
+#news:hover{
+    border-color: #f1ff5c;
+    color: #f7fcc5;
+    box-shadow: -0.5em -0.6em 0.7em -0.35em  #f1ff5c; /*offsetX , offsetY , blur , sprsead , color*/
+    translate: 0.1em -0.20em;
+    transition-duration: 0.4s;
+    rotate: 50deg;
+    cursor: pointer;
+    border-radius: 35% 0%;
+    text-decoration: underline wavy #f7fcc5 2px;
+    
+
+}
+
+#nav {
+    background-color: #cebf935e;
+    color: whitesmoke;
+    /*padding-left:10rem;*/
+    padding-top: 10px;
+   position: relative;
+   z-index: 997;
+   float: center;
+   width: 100%;
+   
+    
+}
+
+#nav_b {
+    background-color: #2f2f2f;
+    font-family: 'Potta One', sans-serif;
+}
+
+#more {
+    color: whitesmoke;
+}
+
+
+#mainnews {
+   
+    color: rgb(90, 90, 90);
+    
+}
+
+#media {
+    font-size: .8125rem;
+    color:rgb(90, 90, 90);
+    font-weight: 200;
+}
+
+#footer {
+    background-color: #4c4c4c;
+    color: #fff;
+    border-color:rgb(148, 148, 148);
+    border-top-color: rgb(148, 148, 148);
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+#end {
+    border-top: 1px solid #949494;
+    box-sizing: content-box;
+    font-size: 13px;
+    font-family: 'Potta One', sans-serif;
+
+    font-weight: lighter;
+}
+
+#co {
+    font-family: 'Potta One', sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+/* 
+for width of all content -make a class "width" and apply to every div/section to have the same padding/margin
++ have it flexible - less with small screen
+*/
