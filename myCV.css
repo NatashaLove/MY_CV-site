@@ -4,8 +4,12 @@ body {
 }
 
 p {
-    font-size: 0.8rem;
-    font-family: 'Potta One', sans-serif;
+    font-size: 0.9rem;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(252, 246, 233);
+    letter-spacing: 1px;
+    
+   
    
 }
 
@@ -21,7 +25,7 @@ span .border-right{
 }
 
 span:hover {
-    text-decoration: underline;
+    text-decoration: underline wavy;
   }
 a #listnews{
     font-weight: 300;
@@ -61,11 +65,20 @@ button.navbar-toggler {
     border: none;
 }
 
-.intro {
-
+#intro {
+    font-size: 1rem;
     color: whitesmoke;
-    
+    font-weight: lighter;
+   justify-content: space-between;
+   letter-spacing: none;
+   font-style: italic;
 }
+
+#introwords {
+    font-weight: bold;
+    color: #f7fcc5;
+}
+
 .border-right {
     margin: 0;
     padding-left: 0;
@@ -134,7 +147,10 @@ button.navbar-toggler {
      letter-spacing: 2px;
      
     }   
-
+#lang {
+    color: #f7fcc5;
+    font-family: 'Open Sans';
+}
 
 #topic {
     padding-bottom:1rem;
@@ -142,6 +158,8 @@ button.navbar-toggler {
     font-size: 1.75rem;
     text-align: center; 
 }
+
+
 
 .text {
     
@@ -169,6 +187,7 @@ button.navbar-toggler {
         font-size: 16px;
         line-height: 1rem;
         padding-top: 0.5rem ;
+        
     }
     
 .listnews :hover {
@@ -235,7 +254,10 @@ button.navbar-toggler {
       width: 15%;
   }
 
-  
+ #title {
+     font-family: 'Potta One';
+     font-size: 1.5rem;
+ } 
 
 
 #search {
@@ -279,6 +301,11 @@ button.navbar-toggler {
 #toggler {
     color: rgb(204, 237, 250);
 
+}
+
+#words{
+    text-decoration: underline wavy rgb(255, 191, 52) 2px;
+    font-size: 1rem;
 }
 
 #navbar {
