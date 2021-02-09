@@ -17,6 +17,12 @@
     <!--Font Awsome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 
+    <!--animate.css - for animation-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
     <title> NATASHA-CV</title>
 
   </head>
@@ -104,14 +110,31 @@
         </div>
         <div class="container ">
           
-          <div class="col d-inline">
-          <img id="me" class="col-6 d-block-inline img-fluid img-thumbnail rounded" src="me.jpg">
-        
-          <p id="title" class="d-inline text mb-0 pb-0"> Web Designer :
-            
-          </p>
+          <div class="media">
+          <img id="me" class="animate__animated animate__rotateInDownLeft d-block-inline img-fluid img-thumbnail rounded align-self-center" src="me.jpg">
+
+          <div class="media-body ml-5">
+           
+            <button id="title" class="animate__animated animate__swing animate__delay-2s animate__slower	2s animate__repeat-2 btn d-inline text mb-0 pb-0" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              Web Designer <span class="animate__animated animate__flash animate__infinite">:</span>
+            </button>
+
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <p>
+              An ambitious problem solver with a strong work ethic, broad customer service experience and a passion for <span id="introwords">Web Design and Translating,</span> who is highly motivated, creative, analytical and attentive to detail, would like to join a team of developers. 
+              <br>
+              She is reliable, thorough and precise in everything she does, and has experience in creating both -<span id="introwords">Mobile Apps and Web Sites</span> -“from scratch”, able to work independently with little or no supervision, as well as in coordination with a professional team, taking a keen interest in <span id="introwords">Web Design, UI and UX.</span>
+            </p>            
+            </div>
           </div>
-          
+        <!--
+          <p id="title" class="d-inline text mb-0 pb-0"> Web Designer :
+          </p>
+          -->
+        </div>
+          </div>
+          <!--
             <div class="row">
               <p class="col-2"></p>
               
@@ -121,7 +144,7 @@
           </p>
         
         </div>
-  
+  -->
     
   </div>
           <div class="container-fluid d-flex row justify-content-center mt-0 " >
@@ -132,49 +155,84 @@
         
    
        
+         <i class="ml-4 mb-0 fas fa-heart animate__animated animate__heartBeat animate__infinite"></i>
+        <h2 id="nl" class= " mt-0 ml-1 ">Natalia Love</h2>
+       
         
-        <h2 id="nl" class= " m-1 ">Natalia Love</h2>
-        <p id="lang"class= " m-1">{languages: English + Russian}</p>
+        <p id="lang"class= "animate__animated animate__flip animate__delay-5s animate__slower	3s m-1">{languages: English + Russian}</p>
         
           <div class="container my-2" id="mainnews">
-            <h3 class="m-0" id="topic">Intro</h3>
-
+            <button class="btn btn-block mb-0 pb-0 align-self-center" type="button" data-toggle="collapse" data-target="#collapseIntro" aria-expanded="false" aria-controls="collapseExample" id="topic">Intro  </button>  
+            <button id="topic" type="button" class="btn w-100 " data-toggle="tooltip" data-placement="right" title="I fell in love with Web Design (HTML and CSS ...">
+              
+            </button>
+                      <div class="container px-0 progress  w-25 align-self-center " >
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar" style="width: 75%; background-color: #78c3c9; " aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            
+            <div class="collapse" id="collapseIntro">
+              <div class="card card-body">
             <section  class=" container px-4"> 
               <p id="intro">I fell in love with <span id="introwords" > Web Design (HTML and CSS in particular)</span> years ago - in 2007 - if being precise - when it all was much more simple and none of modern tools and libraries existed.
               But I was fascinated by the logics and simplicity of <span id="introwords" >HyperText MarkUp Language</span>, I liked to create pages "from scratch" and understand what's "inside" the code. 
               At that time I was creating so-called <span id="introwords" >E-books </span> - projects looking like Web Sites by interface and functionality, but instead of being uploaded online their ISO image files were directly burnt to CD-RW discs.
             </p >
               <p id="intro"> When I moved to US, I realized that I need to learn a new profession (my degree in Linguistics as an English-Russian translator obviously wouldn't be enough to survive here). Being naturally good at languages as well as Math due to my analytical mind I felt like I could learn programming languages - which I did and got a degree in <span id="introwords" >Computer Programming. </span>
-              Now when I have tried a lot of languages and tools, I found that my Main Passion lies in <span id="introwords" >WEB DESIGN, and HTML with CSS</span> are still my favorite ones. :)
+              Now when I have tried a lot of languages and tools, I found that my Main Passion lies in <span id="introwords" >WEB DESIGN, and HTML with CSS,</span> as well as libraries like Bootstrap, are still my favorite ones. :)
             </p>
             </section> 
-          
+              </div>
+            </div>
           </div>
         
 
 <!-- below sections for articles-->
 
 
-        <section class="container-fluid px-4">
+        <section class="container-fluid px-4 pt-5">
 
   <div class="row justify-content-between">
           <div  class="col-sm-5 px-2 ">
             
             <div  >
               <h4 id="topic" class="listnews" href="#">Projects</h4>
-              <p>An ambitious problem solver with a strong work ethic, broad customer service experience and a passion for <span id="words">Web Design and Translating</span>, who is highly motivated, creative, analytical and attentive to detail, would like to join a team of developers. 
+              <ul>
+                <li>
+                   <a id="link" href="http://natashasite-com.stackstaging.com">*****MUSEUM OF CANDY*****</a>
+              <p>description in short
               </p>
-                <p>She is reliable, thorough and precise in everything she does, and has experience in creating both <span id="words">Mobile Apps and Web Sites</span> “from scratch”, able to work independently with little or no supervision, as well as in coordination with a professional team, taking a keen interest in <span id="words">Web Design, UI and UX.</span>
-                </p>
+                </li>
+                <li>
+                  <a id="link" href="http://natashasite-com.stackstaging.com">*****NAME OF THE PROJEC WITH A LINK*****</a>
+             <p>description OF THE PROJECT in short
+             </p>
+               </li>
+              </ul>
+            
             </div>
           </div>
             <div class="col-sm-7 px-2"> 
               
               <div  >
                 <h4 id="topic" class="listnews" href="#">Experience</h4>
-                <p>The National Trust is among those believed to be affected by the latest development.     </p>
-                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-                </p>
+                <p>ASSISTANT WEB DESIGNER, Beals Cunningham Strategic Services; 
+                  OKC, OK — 10/2020 - present
+                  Working closely with front end developers to create captivating digital advertising; Collaborating with marketing team, sales managers, developers and SEO specialists to develop site navigation by categorizing content, funneling traffic through content, applying feedback and trying to improve performance; Reviewing work in a staging environment and providing feedback to the development team; Creating and replicating layouts, web designs, objects, sample pages/sites, updating sites; Discussing project requirements and progress with clients; Developing and maintaining skills and expertise in software tools and programming languages.
+                  manager, highgarden llc; 
+                  OKC, OK — 2/2019 - 8/2020
+                  Creating and supporting a Mobile App “Highgarden Report” for reporting needs of the company; Analyzing the company's supply needs; Revising and reconciling the product inventory and preparing reports; Document management; Troubleshooting for software and hardware issues.
+                  WEB SEARCH EVALUATOR, Appen Global / ZERO CHAOS; 
+                  OKC, OK — 10/2015 - 10/2018
+                  Search Engine Optimization (SEO) expertise; Reviewing and rating web content by means of a specially designed web application to support measurement of search data relevance; Evaluating web pages, sites, online videos, etc.
+                  freelance translator (English - Russian) ; 
+                  OKC, OK — 2013 - present
+                  HEAD FRONT OFFICE MANAGER, Euromed Clinic;
+                  St. Petersburg, Russia — 2008 - 2013 
+                  MANAGER, Tourism Agencies and Operators;
+                  Yekaterinburg, Russia - 2003 - 2008
+                      </p>
+                
               </div>
             </div>
             
