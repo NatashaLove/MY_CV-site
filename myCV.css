@@ -52,6 +52,10 @@ h3 {
     font-weight: lighter;
     font-size: 1.5rem;
 }
+h4 {
+    color: rgb(204, 237, 250);
+}
+
 h6{
     color: whitesmoke;
 }
@@ -200,7 +204,7 @@ button.navbar-toggler {
     padding-bottom: 2px;
     visibility: visible;
     font-weight: normal;
-    border-bottom: 1px solid rgb(255, 191, 52);
+    border-bottom: 1px dotted rgb(255, 191, 52);
     font-size: 1.25rem;
     letter-spacing: 2px;
     display: inline-block;
@@ -392,7 +396,7 @@ button.navbar-toggler {
     rotate: 50deg;
     cursor: pointer;
     border-radius: 35% 0%;
-    text-decoration: underline wavy #f7fcc5 2px;
+   text-decoration: none; 
     
 
 }
