@@ -22,13 +22,14 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-
+<!--icons and fonts from flaticon.com - but need to download pack, no cdn links yet-->
+    <link href="uicons-regular-rounded/css/uicons-regular-rounded.css" rel="stylesheet"> <!--load all styles -->
     <title> NATASHA-CV</title>
 
   </head>
 
    <body>
-       <div style="background: url(https://i.postimg.cc/ZnHTP71s/aircraft-airplane-boat-1575833.jpg)" class="page-holder bg-cover">
+    <div style="background: url(https://i.postimg.cc/ZnHTP71s/aircraft-airplane-boat-1575833.jpg)" class="page-holder bg-cover pb-4">
       <div class="container m-0 p-0">
         <nav id="navbar" class="container-fluid navbar navbar-expand-lg navbar-light my-0 p-0  " >
             <a class="navbar-brand pl-0 mx-0" href="#"><img src="img/bbc.png" alt=""></a>
@@ -86,7 +87,9 @@
           <div  id="nav" class= " d-block container-fluid ">
             <div class="container pl-md-3">
           <div class="d-block">
+            
                <a id="news" href="" class="h1">NATASHA</a>
+              
           </div>
         
           <!--
@@ -111,17 +114,17 @@
         <div class="container ">
           
           <div class="media">
-          <img id="me" class="animate__animated animate__rotateInDownLeft d-block-inline img-fluid img-thumbnail rounded align-self-center" src="me.jpg">
+          <img id="me" class="animate__animated animate__rotateInDownLeft d-block-inline img-fluid img-thumbnail rounded align-self-center" src="me2.jpg">
 
           <div class="media-body ml-5">
            
             <button id="title" class="animate__animated animate__swing animate__delay-2s animate__slower	2s animate__repeat-2 btn d-inline text mb-0 pb-0" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-              Web Designer <span class="animate__animated animate__flash animate__infinite">:</span>
+              Web Designer <span class="animate__animated animate__flash animate__infinite animate__slower 1s">:</span>
             </button>
 
           <div class="collapse" id="collapseExample">
             <div class="card card-body">
-              <p>
+              <p >
               An ambitious problem solver with a strong work ethic, broad customer service experience and a passion for <span id="introwords">Web Design and Translating,</span> who is highly motivated, creative, analytical and attentive to detail, would like to join a team of developers. 
               <br>
               She is reliable, thorough and precise in everything she does, and has experience in creating both -<span id="introwords">Mobile Apps and Web Sites</span> -“from scratch”, able to work independently with little or no supervision, as well as in coordination with a professional team, taking a keen interest in <span id="introwords">Web Design, UI and UX.</span>
@@ -155,21 +158,29 @@
         
    
        
-         <i class="ml-4 mb-0 fas fa-heart animate__animated animate__heartBeat animate__infinite"></i>
-        <h2 id="nl" class= " mt-0 ml-1 ">Natalia Love</h2>
+         <i class="ml-4 mb-0 fas fa-heart animate__animated animate__heartBeat animate__infinite" style="color: rgb(235, 15, 15);"></i>
+        <h2 id="nl" class= " my-0 ml-1 p-0">Natalia Love  <i class="fas fa-dove  animate__animated animate__fadeOutTopRight animate__slower 3s animate__delay-4s" style="color: whitesmoke;"></i></h2>
        
+      
         
-        <p id="lang"class= "animate__animated animate__flip animate__delay-5s animate__slower	3s m-1">{languages: English + Russian}</p>
+        <p id="lang"class= "animate__animated animate__bounceInRight animate__delay-5s animate__slower	4s ml-1"><i class="fas fa-language"></i>  {languages: English  + Russian}</p>
         
           <div class="container my-2" id="mainnews">
-            <button class="btn btn-block mb-0 pb-0 align-self-center" type="button" data-toggle="collapse" data-target="#collapseIntro" aria-expanded="false" aria-controls="collapseExample" id="topic">Intro  </button>  
+            <button class="btn btn-block mb-0 pb-0 align-self-center" type="button" data-toggle="collapse" data-target="#collapseIntro" aria-expanded="false" aria-controls="collapseExample" id="topic">Intro <span class="animate__animated animate__flash animate__slower 2s animate__infinite">:</span>
+            </button>  
             <button id="topic" type="button" class="btn w-100 " data-toggle="tooltip" data-placement="right" title="I fell in love with Web Design (HTML and CSS ...">
               
             </button>
-                      <div class="container px-0 progress  w-25 align-self-center " >
+            <!--
+
+               <div class="container px-0 progress  w-25 align-self-center " >
               <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
               <div class="progress-bar" role="progressbar" style="width: 75%; background-color: #78c3c9; " aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
+            -->
+                   <div id="fishes" class="container-fluid px-0 d-flex align-self-center justify-content-between">
+                    <i class="fas fa-fish px-3 animate__animated animate__wobble animate__slower 3s animate__delay-3s animate__infinite" style="color: rgb(235, 195, 15);"></i>    <i class="fas fa-fish px-3 animate__animated animate__swing animate__infinite animate__slower 2s" style="color: rgb(77, 235, 15);"></i>     <i class="fas fa-fish px-3 animate__animated animate__hinge animate__slower 3s" style="color: rgb(15, 235, 235);"></i>     <i class="fas fa-fish px-3 animate__animated animate__slideInLeft animate__slower 3s animate__delay-4s" style="color: rgb(147, 95, 241);"></i>      <i class="fas fa-fish px-3 animate__animated animate__swing animate__slower 2s animate__infinite" style="color: rgb(250, 75, 227);"></i> 
+                   </div>  
             
             <div class="collapse" id="collapseIntro">
               <div class="card card-body">
@@ -196,18 +207,25 @@
           <div  class="col-sm-5 px-2 ">
             
             <div  >
-              <h4 id="topic" class="listnews" href="#">Projects</h4>
-              <ul>
-                <li>
-                   <a id="link" href="http://natashasite-com.stackstaging.com">*****MUSEUM OF CANDY*****</a>
+              <h4 id="h4" class="listnews" href="#">Projects</h4>
+              <ul id="projects">
+                <li class="py-2" style="color: rgb(250, 75, 227);">
+                   <a id="link" href="museumCandy.html">MUSEUM OF CANDY<img id="me" src="imgs/lolli_icon.png" alt="" class="d-inline animate__animated animate__flip animate__infinite animate__slower 1s img-fluid"> </a>
               <p>description in short
               </p>
                 </li>
-                <li>
-                  <a id="link" href="http://natashasite-com.stackstaging.com">*****NAME OF THE PROJEC WITH A LINK*****</a>
+                <li class="py-2" style="color: rgb(77, 235, 15);"> 
+                  <a id="link" href="hg.html">*****HIGHGARDEN REPORT*****</a>
              <p>description OF THE PROJECT in short
              </p>
                </li>
+               <li class="py-2" style="color: rgb(235, 195, 15);">
+                <a id="link" href="https://github.com/NatashaLove/bbc-site-copy/blob/master/bbcPage.jpg">*****BBC News*****</a>
+           <p>Copy of the Main Page of "BBC.com"<br>
+            HTML. CSS. Bootstrap 4
+           </p>
+               </li>
+
               </ul>
             
             </div>
@@ -215,23 +233,72 @@
             <div class="col-sm-7 px-2"> 
               
               <div  >
-                <h4 id="topic" class="listnews" href="#">Experience</h4>
-                <p>ASSISTANT WEB DESIGNER, Beals Cunningham Strategic Services; 
+                <h4 id="h4" class="listnews" href="#">Experience</h4>
+                <h6>
+                  <i class="fas fa-briefcase"></i> ASSISTANT WEB DESIGNER, Beals Cunningham Strategic Services; 
+                  <br>
                   OKC, OK — 10/2020 - present
-                  Working closely with front end developers to create captivating digital advertising; Collaborating with marketing team, sales managers, developers and SEO specialists to develop site navigation by categorizing content, funneling traffic through content, applying feedback and trying to improve performance; Reviewing work in a staging environment and providing feedback to the development team; Creating and replicating layouts, web designs, objects, sample pages/sites, updating sites; Discussing project requirements and progress with clients; Developing and maintaining skills and expertise in software tools and programming languages.
-                  manager, highgarden llc; 
+                </h6>
+                  <ul>
+                    <li>Working closely with front end developers to create captivating digital advertising;</li>
+                   <li>
+                     Collaborating with marketing team, sales managers, developers and SEO specialists to develop site navigation by categorizing content, funneling traffic through content, applying feedback and trying to improve performance;
+                   </li>
+                   <li>
+                     Reviewing work in a staging environment and providing feedback to the development team;
+                   </li>
+                   <li>
+                     Creating and replicating layouts, web designs, objects, sample pages/sites, updating sites;
+                   </li>
+                   <li>
+                     Discussing project requirements and progress with clients; 
+                   </li>
+                   <li>
+                     Developing and maintaining skills and expertise in software tools and programming languages.
+                   </li>
+                    
+                </ul>
+                <h6>
+                  <i class="fas fa-briefcase"></i> MANAGER, Highgarden LLC; 
+                  <br>
                   OKC, OK — 2/2019 - 8/2020
-                  Creating and supporting a Mobile App “Highgarden Report” for reporting needs of the company; Analyzing the company's supply needs; Revising and reconciling the product inventory and preparing reports; Document management; Troubleshooting for software and hardware issues.
-                  WEB SEARCH EVALUATOR, Appen Global / ZERO CHAOS; 
-                  OKC, OK — 10/2015 - 10/2018
-                  Search Engine Optimization (SEO) expertise; Reviewing and rating web content by means of a specially designed web application to support measurement of search data relevance; Evaluating web pages, sites, online videos, etc.
-                  freelance translator (English - Russian) ; 
-                  OKC, OK — 2013 - present
-                  HEAD FRONT OFFICE MANAGER, Euromed Clinic;
-                  St. Petersburg, Russia — 2008 - 2013 
-                  MANAGER, Tourism Agencies and Operators;
-                  Yekaterinburg, Russia - 2003 - 2008
-                      </p>
+                  </h6>
+                  <ul>
+                    <li>
+                  Creating and supporting a <a id="link" href="hg.html"> Mobile App “Highgarden Report”</a> for reporting needs of the company; 
+                </li>
+            
+                <li>
+                Revising and reconciling the product inventory and preparing reports; Analyzing the company's supply needs; 
+              </li>
+              <li>
+              Troubleshooting for software and hardware issues; Document management.
+            </li>    
+            </ul>
+            <h6>
+              <i class="fas fa-briefcase"></i> WEB SEARCH EVALUATOR, Appen Global / ZERO CHAOS; <br>
+                  OKC, OK — 10/2015 - 10/2018</h6>
+                  <ul>
+                    <li>Search Engine Optimization (SEO) expertise;
+                    </li>
+                    <li>Reviewing and rating web content by means of a specially designed web application to support measurement of search data relevance;</li>
+                    <li> Evaluating web pages, sites, online videos, etc.</li>
+                 </ul>
+                 <h6>
+                  <i class="fas fa-briefcase"></i> FREELANCE TRANSLATOR (English - Russian <i class="fas fa-language"></i>) ; 
+                    <br>
+                  OKC, OK — 2013 - present </h6>
+                  <h6>
+                    <br>
+                    <i class="fas fa-briefcase"></i>
+                  HEAD FRONT OFFICE MANAGER, Euromed Clinic;<br>
+                  St. Petersburg, Russia — 2008 - 2013 </h6>
+                  <h6>
+                    <br>
+                    <i class="fas fa-briefcase"></i>
+                  MANAGER, Tourism Agencies and Operators;<br>
+                  Yekaterinburg, Russia - 2003 - 2008</h6>
+                     
                 
               </div>
             </div>

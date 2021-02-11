@@ -34,7 +34,7 @@ a #listnews{
 }
 
 li {
-    color: rgb(204, 237, 250);
+    color: rgb(252, 246, 233);
 
     
 }
@@ -52,11 +52,21 @@ h3 {
     font-weight: lighter;
     font-size: 1.5rem;
 }
+h6{
+    color: whitesmoke;
+}
 
 hr {
    margin-left: 10rem;
    align-items: end;
     
+}
+
+#fishes{
+    font-size: 1.5rem;
+    align-content: center; 
+    background-color: transparent;
+    color: turquoise;
 }
 
 i {
@@ -144,7 +154,7 @@ button.navbar-toggler {
 
 #nl {
       color:rgb(255, 191, 52);
-      border-bottom: 1px solid rgb(255, 191, 52);
+      border-bottom: 1px dotted rgb(255, 191, 52);
       font-size: 1.5rem;
      letter-spacing: 2px;
      
@@ -157,13 +167,25 @@ button.navbar-toggler {
 
 #topic {
     padding-bottom:1rem;
-    color: rgb(204, 237, 250);
+    color: rgb(33, 245, 255);
     font-size: 1.75rem;
     align-self: center; 
     background-color: transparent;
     font-family: 'Potta One';
 }
+#h4{
+    padding-bottom:1rem;
+    color: rgb(204, 237, 250);
+    font-size: 1.75rem;
+    align-self: center; 
+    background-color: transparent;
+    text-decoration: underline;
+}
+#projects {
 
+    font-size: 1.2rem;
+    
+}
 
 .text {
     
@@ -254,19 +276,20 @@ button.navbar-toggler {
 
 }
 .card {
-    background-color: transparent;
+    background-color:  rgba(10, 148, 141, 0.5);
     border: 1px dashed  rgb(255, 191, 52);
 }
 
 
 #me{
-      width: 15%;
+      width: 13%;
   }
 
  #title {
      font-family: 'Potta One';
      font-size: 1.5rem;
      background-color: transparent;
+     color: rgb(33, 245, 255);
  } 
  #title:hover{
     color: #f6f8e2;
@@ -323,7 +346,11 @@ button.navbar-toggler {
 }
 
 #link{
-    color: rgb(247, 169, 214);
+    color: rgb(33, 245, 255);
+}
+
+#profile {
+    color: #150202;
 }
 
 #navbar {
@@ -369,6 +396,7 @@ button.navbar-toggler {
     
 
 }
+
 
 #nav {
     background-color: #cebf935e;
