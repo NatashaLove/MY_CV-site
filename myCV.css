@@ -52,9 +52,19 @@ h3 {
     font-weight: lighter;
     font-size: 1.5rem;
 }
+#h4{
+    padding-bottom:1rem;
+    color: rgba(143, 243, 209, .9);
+    font-size: 1.75rem;
+    align-self: center;
+    background-color: transparent;
+    text-decoration: underline;
+}
 h4 {
     color: rgb(204, 237, 250);
+    
 }
+
 
 h6{
     color: whitesmoke;
@@ -93,6 +103,12 @@ button.navbar-toggler {
 #introwords {
     font-weight: bold;
     color: #f7fcc5;
+}
+.center {
+     padding : 15em 0;
+     font-family:'Myfont';
+     color:#ffffff;
+    
 }
 
 .border-right {
@@ -177,19 +193,18 @@ button.navbar-toggler {
     background-color: transparent;
     font-family: 'Potta One';
 }
-#h4{
-    padding-bottom:1rem;
-    color: rgb(204, 237, 250);
-    font-size: 1.75rem;
-    align-self: center; 
-    background-color: transparent;
-    text-decoration: underline;
-}
+
 #projects {
 
     font-size: 1.2rem;
     
 }
+#myfont {
+    font-size: 1.3rem;
+    color: #606062; size: 10px;
+    font-family: 'Myfont';
+}
+
 
 .text {
     
@@ -350,7 +365,7 @@ button.navbar-toggler {
 }
 
 #link{
-    color: rgb(33, 245, 255);
+    color: rgba(98, 236, 153, 0.82);
 }
 
 #profile {
