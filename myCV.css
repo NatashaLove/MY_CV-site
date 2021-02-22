@@ -105,10 +105,25 @@ button.navbar-toggler {
     color: #f7fcc5;
 }
 .center {
-     padding : 15em 0;
+     padding : 10em 0;
      font-family:'Myfont';
      color:#ffffff;
+     
     
+}
+
+.shine:hover {
+    color: #f5f5ed;
+    box-shadow: 0.5em 0.5em 0.5em -0.45em  #d4d4d3; /*offsetX , offsetY , blur , sprsead , color*/
+    translate: 20% 20%;
+    transition-duration: 0.4s;
+    rotate: 0deg;
+    cursor: pointer;
+    border-radius: 50% ;
+   text-decoration: none; 
+   width: 40%;
+   align-self: center;
+
 }
 
 .border-right {
@@ -200,9 +215,14 @@ button.navbar-toggler {
     
 }
 #myfont {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #606062; size: 10px;
-    font-family: 'Myfont';
+    font-family: 'Myfont','Kino MT' ;
+   justify-self: center;
+   letter-spacing: 3px;
+  
+   
+
 }
 
 
