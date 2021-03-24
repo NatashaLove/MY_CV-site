@@ -94,6 +94,9 @@ h4 {
     
 }
 
+h5 {
+    color: black;
+}
 
 h6{
     color: whitesmoke;
@@ -344,8 +347,14 @@ button.navbar-toggler {
 
 
 #me{
-      width: 13%;
+      width: 12%;
   }
+#lolli {
+    width: 11%;
+}
+#hg{
+    width: 6%;
+}
 
  #title {
      font-family: 'Potta One';
