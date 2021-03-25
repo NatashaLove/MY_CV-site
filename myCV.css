@@ -345,6 +345,12 @@ button.navbar-toggler {
     border: 1px dashed  rgb(255, 191, 52);
 }
 
+.hg {
+    width: 30%;
+    border: 7px solid brown;
+    border-radius: 25px;
+}
+
 
 #me{
       width: 12%;
