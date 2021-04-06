@@ -118,6 +118,9 @@ hr {
 i {
     color: #f7fcc5;
 }
+#git {
+    color:rgba(7, 0, 0, 0.5)
+}
 
 button.navbar-toggler {
     border: none;
@@ -135,6 +138,26 @@ button.navbar-toggler {
 #introwords {
     font-weight: bold;
     color: #f7fcc5;
+}
+
+#back {
+    background-color: #3a5cd6;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-family: 'Myfont';
+    letter-spacing: 2px;
+    
+}
+#back:hover{
+    text-decoration: none;
+}
+
+#height {
+    min-height: 400 px;
+}
+#carouselExampleIndicators {
+    min-height: 400 px;
+
 }
 
 
@@ -163,6 +186,13 @@ button.navbar-toggler {
     
 }
 
+.carousel-indicators li {
+    background-color: #bd2130;
+}
+
+.active li{
+    background-color: #086427;
+}
 
 .nav {
     font-family: 'Potta One', sans-serif;
@@ -358,9 +388,12 @@ button.navbar-toggler {
 #lolli {
     width: 11%;
 }
+
+
 #hg{
     width: 6%;
 }
+
 
  #title {
      font-family: 'Potta One';
