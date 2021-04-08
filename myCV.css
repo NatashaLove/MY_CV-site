@@ -147,17 +147,10 @@ button.navbar-toggler {
     font-family: 'Myfont';
     letter-spacing: 2px;
     
+    
 }
 #back:hover{
     text-decoration: none;
-}
-
-#height {
-    min-height: 400 px;
-}
-#carouselExampleIndicators {
-    min-height: 400 px;
-
 }
 
 
@@ -174,6 +167,7 @@ button.navbar-toggler {
    align-self: center;
 
 }
+
 
 .border-right {
     margin: 0;
@@ -192,6 +186,11 @@ button.navbar-toggler {
 
 .active li{
     background-color: #086427;
+}
+
+.slides {
+    max-height: 500px;
+    max-width: 243px;
 }
 
 .nav {
