@@ -1,0 +1,302 @@
+body {
+   font-family:  'Work Sans', sans-serif;
+  
+}
+
+p {
+    font-size: 0.8rem;
+    font-family: 'Raleway', sans-serif;
+   
+}
+
+a {
+    color:rgb(90, 90, 90);
+}
+a :hover {
+    color: rgb(50, 140, 170);
+}
+
+span .border-right{
+    border-color: rgb(187, 69, 79);
+}
+
+span:hover {
+    text-decoration: underline;
+  }
+a #listnews{
+    font-weight: 300;
+    color: rgb(30, 30, 30);
+    font-size: 16px;
+    line-height: 1rem;
+   
+}
+
+
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: #fff;
+    line-height: 1.75rem;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+hr {
+   margin-left: 10rem;
+   align-items: end;
+    
+}
+
+
+.border-right {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 10px;
+    border-width: 1px;
+    border-color:  rgb(187, 69, 79);
+    color: whitesmoke;
+    
+}
+
+
+.nav {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: whitesmoke;
+    padding-right: 1rem, .5rem;
+    
+
+    
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(51,51,51);
+    font-weight:615;
+    justify-content: space-around;
+    
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+    font-size: 13.5px;
+    
+}
+
+
+.container {
+    max-width: 1300px;
+}
+
+
+.nav-item {
+    padding: .450em 12px .250em;
+    min-height: 2em;
+}
+.form-inline {
+    padding-left: 20px;
+    min-width: 200px;
+}
+
+.nav-link {
+    padding-left: 0;
+    border-color: rgb(187, 69, 79);
+}
+
+#topic {
+    padding-bottom:1rem;
+    color:rgb(90, 90, 90);
+    font-size: 1.75rem;
+      
+}
+
+.text {
+    
+    color:rgb(64, 64, 64);
+      
+   position: relative;
+   z-index: 999;
+   line-height: 24px;
+    margin-bottom: 8px;
+    /*margin-left: 10rem;*/
+    margin-top: 8px;
+    padding-bottom: 2px;
+    visibility: visible;
+    font-weight: normal;
+    border-bottom: 3px solid #bb1919;
+    font-size: 1.25rem;
+    display: inline-block;
+    }
+
+    
+.listnews {
+        font-weight: 300;
+        color: rgb(30, 30, 30);
+        font-size: 16px;
+        line-height: 1rem;
+        padding-top: 0.5rem ;
+    }
+    
+.listnews :hover {
+        color: rgb(50, 140, 170);
+    }
+
+
+
+#topic:hover {
+    color: rgb(50, 140, 170);
+}  
+
+.socmed {
+    height: 30px;
+    width: 50 px;
+}
+
+.flex-sm-fill {
+    padding-right: 16px;
+    width: 25%;
+    color: #fff;
+    
+}
+
+.foot {
+
+   
+    padding-top: 1.23em;
+    display: block;
+    border-right: 1px solid #949494;
+    line-height: 1.2em;
+    font-size:  0.8em;
+    font-weight: lighter;
+}
+
+#search {
+    width: 142px;
+    margin: 8px, 0, 7px, 16px;
+    padding-left: 6px;
+    float:left;
+    background: #e4e4e4;
+    font-size: 13px;
+    color:internal-light-dark;
+    font-weight: 600;
+    height: 1.846em;
+    min-height: 24px;
+    border: none;
+}
+
+#signin  {
+    position: relative;
+    margin: 0;
+    padding: 6px, 200px, 4px, 42px;
+    min-width: 12em;
+    border: 0;
+
+}
+
+#magglass {
+    width: 32px;
+    height: 24px;
+    background: #e4e4e4;
+    border-radius: 0;
+    cursor: pointer;
+    border: none;
+    
+    display: block;
+    line-height: 0;
+   
+    background-position: center center;
+    background-size: 16px 16px;
+}
+
+#navbar {
+   color: rgb(51, 51, 51);
+   /*padding-left:10rem;*/
+   position: relative;
+   z-index: 999;
+
+}
+
+#navbarDropdownMenuLink {
+    position: relative;
+    margin: 0;
+    padding: 6px, 200px, 4px, 42px;
+    min-width: 7em;
+    max-width: 100%;
+    background-color: white;
+}
+
+#news {
+    font-family: 'Heebo', sans-serif;
+    font-size: 2.7rem;
+    font-weight: 400;
+    color: white;
+
+    
+}
+
+#nav {
+    background-color: rgb(187, 25, 25);
+    color: whitesmoke;
+    /*padding-left:10rem;*/
+    padding-top: 10px;
+   position: relative;
+   z-index: 999;
+   float: center;
+    
+}
+
+#nav_b {
+    background-color: #2f2f2f;
+    font-family: 'Heebo', sans-serif;
+}
+
+#more {
+    color: whitesmoke;
+}
+
+
+#mainnews {
+   
+    color: rgb(90, 90, 90);
+    
+}
+
+#media {
+    font-size: .8125rem;
+    color:rgb(90, 90, 90);
+    font-weight: 200;
+}
+
+#footer {
+    background-color: #4c4c4c;
+    color: #fff;
+    border-color:rgb(148, 148, 148);
+    border-top-color: rgb(148, 148, 148);
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+#end {
+    border-top: 1px solid #949494;
+    box-sizing: content-box;
+    font-size: 13px;
+    font-family: 'Heebo', sans-serif;
+
+    font-weight: lighter;
+}
+
+#co {
+    font-family: 'Heebo', sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+}
+/* 
+for width of all content -make a class "width" and apply to every div/section to have the same padding/margin
++ have it flexible - less with small screeb
+*/
