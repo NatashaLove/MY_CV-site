@@ -153,6 +153,17 @@ button.navbar-toggler {
     text-decoration: none;
 }
 
+#projects {
+    background-color: transparent;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-family: 'Myfont';
+    font-weight: bold;
+    letter-spacing: 3px;   
+    text-decoration: none;
+   
+    
+}
 
 .shine:hover {
     color: #f5f5ed;
@@ -264,7 +275,7 @@ button.navbar-toggler {
     font-family: 'Potta One';
 }
 
-#projects {
+#project {
 
     font-size: 1.2rem;
     
@@ -280,6 +291,9 @@ button.navbar-toggler {
 
 }
 
+#cv {
+    line-height: 40px;
+}
 
 .text {
     
